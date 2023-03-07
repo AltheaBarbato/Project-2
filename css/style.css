@@ -34,3 +34,8 @@
   text-decoration-color: darkolivegreen;
   text-decoration-thickness: 5px;
 }
+#cat-wave{
+  float: center;
+  width: 6em;
+  margin: 72px 42px 42px 2px;
+}
