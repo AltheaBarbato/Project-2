@@ -35,7 +35,7 @@
   text-decoration-thickness: 5px;
 }
 #cat-wave{
-  float: center;
+  text-align: center;
   width: 6em;
   margin: 72px 42px 42px 2px;
 }
