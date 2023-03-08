@@ -93,7 +93,7 @@
   height: 300px;
   border-radius: 25%;
 }
-#name-info {
+.name-info {
   width: 60%;
   margin-left: 32%;
   padding: 4%;
