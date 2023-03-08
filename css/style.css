@@ -123,6 +123,7 @@
   position: relative;
   padding: 10px;
   margin-left: 20px;
+  border-radius: 25%;
 }
 
 #eating-section {
@@ -132,6 +133,7 @@
   margin-right: 20px;
   background-color: pink;
   position: relative;
+  border-radius: 25%;
 }
 #music-section {
   float: right;
@@ -140,6 +142,7 @@
   margin-right: 20px;
   background-color: pink;
   position: relative;
+  border-radius: 25%;
 }
 #travelling-section {
   float: right;
@@ -148,6 +151,7 @@
   margin-right: 20px;
   background-color: pink;
   position: relative;
+  border-radius: 25%;
 }
 .plane-img {
   margin-left: 2vw;
@@ -168,4 +172,5 @@
   padding: 20px;
   margin:20px;
   background-color: pink;
+  border-radius: 25%;
 }
