@@ -162,7 +162,7 @@
   border-radius: 25%;
 }
 #movie-section {
-  float: left;
+  float: center;
   padding: 20px;
   margin:20px;
   background-color: darkseagreen;
