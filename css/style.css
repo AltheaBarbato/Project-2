@@ -67,6 +67,8 @@
   border-radius: 25%;
   border-color: pink;
   background: darkseagreen;
+  font-family: Monaco;
+  font-size: 60px;
 }
 
 #contact-info {
@@ -79,7 +81,6 @@
   margin-top: 25px;
   padding: 10px;
   background: pink;
-  transition: all .2s ease-in-out; 
 }
 
 #contact-info:hover { 
