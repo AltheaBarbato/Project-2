@@ -91,18 +91,7 @@
 #contact-info:hover { 
   transform: scale(1.1); 
 }
-.info-box-1 {
-  width: 60%;
-  margin-left: 32%;
-  padding: 4%;
-  box-shadow: 0 0 8px 8px #F4D4B8 inset;
-}
 
-.info-box-2 {
-  width: 60%;
-  padding: 4%;
-  box-shadow: 0 0 8px 8px #F4D4B8 inset;
-}
 .food-img {
   margin-left: 2vw;
   margin-right: 2vw;
@@ -126,4 +115,21 @@
   display: flex;
   justify-content: center;
   margin-bottom: 12vh;
+}
+#food-section {
+  float: left;
+  width: 46%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#eating-section {
+  float: right;
+  width: 46%;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
 }
