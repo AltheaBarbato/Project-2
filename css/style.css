@@ -54,7 +54,6 @@
   margin-top: 25px;
   padding: 10px;
   background: darkseagreen;
-  transition: all .2s ease-in-out; 
 }
 
 #heading-info:hover { 
@@ -68,7 +67,6 @@
   border-radius: 25%;
   border-color: pink;
   background: darkseagreen;
-  transition: all .2s ease-in-out; 
 }
 
 #contact-info {
@@ -193,6 +191,5 @@
   margin-top: 25px;
   padding: 10px;
   background: darkseagreen;
-  transition: all .2s ease-in-out; 
 }
 
