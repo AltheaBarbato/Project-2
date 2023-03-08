@@ -167,10 +167,10 @@
   height: 300px;
   border-radius: 25%;
 }
-#movies-section {
+#movie-section {
   float: left;
   padding: 20px;
   margin:20px;
-  background-color: pink;
+  background-color: darkseagreen;
   border-radius: 25%;
 }
