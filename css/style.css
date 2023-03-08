@@ -193,7 +193,7 @@
   background: darkseagreen;
 }
 h2 {
-  font-family: 'markerfelt';
+  font-family: Marker Felt, fantasy;
 }
 h3 {
   font-family: 'markerfelt';
@@ -204,5 +204,5 @@ font-family: 'markerfelt';
 }
 
 li {
-font-family: 'Courier New';
+font-family: 'markerfelt';
 }
