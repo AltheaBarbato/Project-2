@@ -38,6 +38,8 @@
   width: 300px;
   height: 300px;
   border-radius: 25%;
+  border-radius: 25%;
+  border-color: pink;
 }
 #nav-body{
     background-image: url(https://i.pinimg.com/474x/4d/e1/31/4de131d8893bcd1f47eca892ffa883be.jpg);
