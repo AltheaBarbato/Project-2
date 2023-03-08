@@ -62,11 +62,6 @@
   text-align: center;
   border-style: inset;
   border-color: mediumvioletred;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 10px;
   background: darkseagreen;
   transition: all .2s ease-in-out; 
 }
