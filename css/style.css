@@ -133,3 +133,19 @@
   background-color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
+#music-section {
+  float: right;
+  width: 46%;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+#travelling-section {
+  float: right;
+  width: 46%;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
