@@ -45,7 +45,7 @@
 #heading-info {
   text-align: center;
   border-style: inset;
-  border-color: mediumvioletred;
+  border-color: pink;
   margin-left: 300px;
   margin-right: 300px;
   margin-bottom: 25px;
@@ -64,7 +64,7 @@
   width: 300px;
   height: 300px;
   border-radius: 25%;
-  border-color: mediumvioletred;
+  border-color: pink;
   background: darkseagreen;
   transition: all .2s ease-in-out; 
 }
@@ -72,7 +72,7 @@
 #contact-info {
   text-align: center;
   border-style: inset;
-  border-color: mediumvioletred;
+  border-color: pink;
   margin-left: 300px;
   margin-right: 300px;
   margin-bottom: 25px;
