@@ -68,7 +68,7 @@ h2 {
 #contact-info:hover { 
   transform: scale(1.1); 
 }
-.infoCol1{
+.info-box-1{
   width: 60%;
   margin-left: 32%;
   padding: 4%;
@@ -80,7 +80,7 @@ h2 {
   padding: 4%;
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
 }
-#foodimg{
+#food-img{
   margin-left: 2vw;
   margin-right: 2vw;
   width: 300px;
