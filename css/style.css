@@ -186,13 +186,13 @@
 h3 {
   text-align: center;
   border-style: inset;
-  border-color: darkseagreen;
+  border-color: pink;
   margin-left: 300px;
   margin-right: 300px;
   margin-bottom: 25px;
   margin-top: 25px;
   padding: 10px;
-  background: pink;
+  background: darkseagreen;
   transition: all .2s ease-in-out; 
 }
 
