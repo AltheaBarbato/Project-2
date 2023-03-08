@@ -168,3 +168,10 @@
   background-color: darkseagreen;
   border-radius: 25%;
 }
+#cat-section {
+  float: left;
+  padding: 20px;
+  margin:20px;
+  background-color: darkseagreen;
+  border-radius: 25%;
+}
