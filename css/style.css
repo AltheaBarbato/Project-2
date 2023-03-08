@@ -121,3 +121,8 @@
   height: 300px;
   border-radius: 25%;
 }
+.section1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12vh;
+}
