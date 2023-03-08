@@ -37,6 +37,7 @@
 #cat-img{
   width: 300px;
   height: 300px;
+  border-radius: 25%;
 }
 #nav-body{
     background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v935-aum-03_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9c34a3160a757b89ac9cb496bec6ca5c);
@@ -73,28 +74,33 @@
 #contact-info:hover { 
   transform: scale(1.1); 
 }
-.info-box-1{
+.info-box-1 {
   width: 60%;
   margin-left: 32%;
   padding: 4%;
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
 }
 
-.info-box-2{
+.info-box-2 {
   width: 60%;
   padding: 4%;
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
 }
-.food-img{
+.food-img {
   margin-left: 2vw;
   margin-right: 2vw;
   width: 300px;
   height: 300px;
   border-radius: 25%;
 }
-.info-box-3{
+.info-box-3 {
   width: 60%;
   margin-left: 32%;
   padding: 4%;
   box-shadow: 0 0 8px 8px #F4D4B8 inset;
 }
+.all.info {
+  width: 100%;
+  padding: 4%;
+  box-shadow: 0 0 8px 8px #F4D4B8 inset;
+} 
