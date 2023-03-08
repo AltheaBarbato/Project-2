@@ -119,7 +119,7 @@
 #food-section {
   float: left;
   width: 46%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: pink;
   position: relative;
   padding: 10px;
   margin-left: 20px;
@@ -130,7 +130,7 @@
   width: 46%;
   padding: 10px;
   margin-right: 20px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: pink;
   position: relative;
 }
 #music-section {
@@ -138,7 +138,7 @@
   width: 46%;
   padding: 10px;
   margin-right: 20px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: pink;
   position: relative;
 }
 #travelling-section {
@@ -146,7 +146,7 @@
   width: 46%;
   padding: 10px;
   margin-right: 20px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: pink;
   position: relative;
 }
 .plane-img {
@@ -167,5 +167,5 @@
   float: left;
   padding: 20px;
   margin:20px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: pink;
 }
