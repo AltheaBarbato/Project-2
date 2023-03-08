@@ -149,3 +149,13 @@
   background-color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
+#plane-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 25%;
+}
+#music-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 25%;
+}
