@@ -333,3 +333,22 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+#wrapper {
+  width: 950px;
+  height: 700px;
+  background-color: #17b0ae;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#canvas {
+  width: 800px;
+  height: 600px;
+  background-color: #fddc9d;
+  margin: 30px auto;
+}
+
+.map-background {
+  background-color: #cad9d9;
+  margin: 10px;
+}
