@@ -148,7 +148,7 @@
   position: relative;
   border-radius: 25%;
 }
-.images-slideshow {
+.imageSlides  {
   margin-left: 2vw;
   margin-right: 2vw;
   width: 300px;
@@ -261,7 +261,4 @@
  /* setting the position of the next button towards right */
 .next {
   right: 2%;
-}
-.imageSlides {
-  display: none
 }
