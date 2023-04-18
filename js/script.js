@@ -20,7 +20,7 @@ if(document.getElementById("map")!=null) {
     icon: 'image/icon.png'
   });
   
-  var contentString = '<h2>Barcelona, Spain</h2><p>One of the most beautiful cities in the world. Barcelona is known for their art, sports and architecture. This is a must go to place and definitely check out La Sagrada Familia</p>'
+  var contentString = '<h2>Greece</h2><p>so fun</p>'
   
   var infowindow = new google.maps.InfoWindow({
     content: contentString
