@@ -336,7 +336,7 @@
 #wrapper {
   width: 950px;
   height: 700px;
-  background-color: #17b0ae;
+  background-color: pink;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -344,7 +344,7 @@
 #canvas {
   width: 800px;
   height: 600px;
-  background-color: #fddc9d;
+  background-color: darkseagreen;
   margin: 30px auto;
 }
 
