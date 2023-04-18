@@ -192,3 +192,64 @@
   background: darkseagreen;
   font-family: Monaco;
 }
+@media screen and (min-width: 1200px) {
+  #nav h3{
+    position: relative;
+    left: 1%;
+    box-sizing: border-box;
+    width: 99%;
+    margin: 0;
+  }
+  #nav h2{
+    position: relative;
+    left: 1%;
+    box-sizing: border-box;
+    width: 99%;
+    margin: 0;
+  }
+  #nav p {
+    position: relative;
+    left: 3%;
+    box-sizing: border-box;
+    width: 94%;
+  }
+  #bands li{
+    position: relative;
+    left: 5%;
+    box-sizing: border-box;
+    width: 95%;
+  }
+  #nav img {
+    display: block;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    width: 25%;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 800px) {
+  #nav h3{
+    position: relative;
+    left: 4%; /* Change 1, so the text isn't uncomfortably close to the left side of the screen */
+    box-sizing: border-box;
+    width: 96%; /* Change 2, so the text isn't uncomfortably close to the right side of the screen */
+    margin: 0;
+  }
+  #nav p {
+    position: relative;
+    left: 8%; /* Change 3, so the paragraph text is slightly staggered from the head and not too close to the left */
+    box-sizing: border-box;
+    width: 84%; /* Change 4, so the paragraph text isn't too close to the right side and is proportional to the left side */ 
+  }
+  #bands li{
+    position: relative;
+    left: 12%; /* Change 5, so the list is staggered from the paragraph body */
+    box-sizing: border-box;
+    width: 88%; /* Change 6, so the content box doesn't go off screen */
+  }
+  #nav img {
+    display: block;
+    margin-left: 20%; /* Change 7, so the image stays centered but scales better as the size changes */
+    margin-right: 20%; /* Change 8, so the image stays centered but scales better as the size changes */
+    width: 60%; /* Change 9, so the image stays centered but scales better as the size changes */
+  }
+}
