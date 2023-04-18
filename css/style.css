@@ -148,7 +148,7 @@
   position: relative;
   border-radius: 25%;
 }
-.plane-img {
+.images-slideshow {
   margin-left: 2vw;
   margin-right: 2vw;
   width: 300px;
@@ -252,4 +252,13 @@
     margin-right: 20%; /* Change 8, so the image stays centered but scales better as the size changes */
     width: 60%; /* Change 9, so the image stays centered but scales better as the size changes */
   }
+}
+/*slideshow*/
+/* setting the position of the previous button towards left */
+.previous {
+  left: 2%;
+}
+ /* setting the position of the next button towards right */
+.next {
+  right: 2%;
 }
