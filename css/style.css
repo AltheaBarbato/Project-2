@@ -345,3 +345,7 @@
   background-color: #cad9d9;
   margin: 10px;
 }
+#map {
+  height: 500px;
+  width: 100%;
+}
