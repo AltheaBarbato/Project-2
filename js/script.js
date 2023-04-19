@@ -1,4 +1,3 @@
-if(document.getElementById("map")!=null) {
   function init(){
 	//alert('it works');
 	var el = document.getElementById('canvas');
