@@ -1,36 +1,27 @@
-  function init(){
-	//alert('it works');
-	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(41.835117, -87.627130);
-	var mapOptions = {
-		center: myLocation,
-		zoom: 18,
-		mapTypeId: google.maps.MapTypeId.SATELLITE,
-		mapTypeControlOptions: {
-			position: google.maps.ControlPosition.BOTTOM_CENTER
-		}
-	};
+  // Initialize and add the map
+let map;
 
-	var myMap = new google.maps.Map(el, mapOptions);
+async function initMap() {
+  // The location of Uluru
+  const position = { lat: -25.344, lng: 131.031 };
+  // Request needed libraries.
+  //@ts-ignore
+  const { Map } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerView } = await google.maps.importLibrary("marker");
 
-	var marker = new google.maps.Marker({
-		position: myLocation,
-		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
-		icon: 'iit-icon.png'
-	});
+  // The map, centered at Uluru
+  map = new Map(document.getElementById("map"), {
+    zoom: 4,
+    center: position,
+    mapId: "DEMO_MAP_ID",
+  });
 
-	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
-
-	var infowindow = new google.maps.InfoWindow({
-      content: contentString
-  	});
-
-	google.maps.event.addListener(marker, 'mouseover', function() {
-    	infowindow.open(myMap, marker);
-  	});
-
-
+  // The marker, positioned at Uluru
+  const marker = new AdvancedMarkerView({
+    map: map,
+    position: position,
+    title: "Uluru",
+  });
 }
 
-google.maps.event.addDomListener(window, 'load', init);
+initMap();
