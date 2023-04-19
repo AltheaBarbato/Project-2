@@ -148,13 +148,7 @@
   position: relative;
   border-radius: 25%;
 }
-.slideshow-container {
-  margin-left: 2vw;
-  margin-right: 2vw;
-  width: 300px;
-  height: 300px;
-  border-radius: 25%;
-}
+
 .music-img {
   margin-left: 2vw;
   margin-right: 2vw;
@@ -257,7 +251,11 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 300px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 300px;
+  height: 300px;
+  border-radius: 25%;
   position: relative;
   margin: auto;
 }
