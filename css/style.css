@@ -257,11 +257,8 @@
 
 /* Slideshow container */
 .slideshow-container {
-  margin-left: 2vw;
-  margin-right: 2vw;
-  width: 300px;
-  height: 300px;
-  border-radius: 25%;
+  max-width: 1000px;
+  position: relative;
   margin: auto;
 }
 
