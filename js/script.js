@@ -19,7 +19,7 @@ var myMap = new google.maps.Map(el, mapOptions);
 		icon: 'pics/icon.png'
 	});
 
-	var contentString = '<h1>This is where my fmaily is from</h1><p></p>';
+	var contentString = '<h1>This is wh</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
