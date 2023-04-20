@@ -1,12 +1,15 @@
+
 function initMap() {
-
-
-  var map = new Map(document.getElementById("map"), {
+  const map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 35.10295383110616, lng: 33.244096104232426 },
     zoom: 8,
+    mapTypeId: "satellite",
   });
 
+  map.setTilt(45);
+}
 
+window.initMap = initMap;
 
 var myMap = new google.maps.Map(el, mapOptions);
 
