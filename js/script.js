@@ -19,7 +19,7 @@ var myMap = new google.maps.Map(el, mapOptions);
 		icon: 'pics/icon.png'
 	});
 
-	var contentString = '<h1>This is where my fmaily is from</h1><p>Cyprus is a beautiful island nation located in the eastern Mediterranean, known for its stunning beaches, rich history, and warm hospitality. Visitors to Cyprus can explore ancient ruins, enjoy delicious Cypriot cuisine, and soak up the sun on pristine beaches. The island is also a popular destination for water sports enthusiasts, with plenty of opportunities for snorkeling, diving, and windsurfing. Whether you're interested in history, culture, or just relaxing in the sun, Cyprus has something for everyone. </p>';
+	var contentString = '<h1>This is where my fmaily is from</h1><p></p>';
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
