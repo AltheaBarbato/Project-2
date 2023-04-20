@@ -1,16 +1,14 @@
 
-function initMap() {
-  var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(35.10295383110616,33.244096104232426);
-  var myOptions = {
-	  center: myLocation,
-	  zoom: 8,
-	  mapTypeId: google.maps.mapTypeId.SATELLITE,
-	  mapTypeControlOptions: {
-			position: google.maps.ControlPosition.BOTTOM_CENTER
-		}
-	};
-  
+  let map;
+
+async function initMap() {
+  //@ts-ignore
+  const { Map } = await google.maps.importLibrary("maps");
+
+  map = new Map(document.getElementById("map"), {
+    center: { lat: 35.10295383110616, lng: 33.244096104232426 },
+    zoom: 8,
+  });
 
 var myMap = new google.maps.Map(el, mapOptions);
 
@@ -31,6 +29,7 @@ var myMap = new google.maps.Map(el, mapOptions);
     	infowindow.open(myMap, marker);
   	});
 
+initMap();
 
 }
 
