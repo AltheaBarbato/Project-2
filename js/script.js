@@ -11,11 +11,13 @@ async function initMap() {
 }
 
 initMap();
+
+
 var myMap = new google.maps.Map(el, mapOptions);
 
 	var marker = new google.maps.Marker({
 		position: myLocation,
 		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
-		icon: 'iit-icon.png'
+		icon: 'pics/icon.jpg'
 	});
