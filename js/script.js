@@ -8,22 +8,26 @@ function initMap() {
 
 
 
-var empireStateBuilding = new google.maps.Marker({
-      position: {lat: 35.10295383110616, lng: 33.244096104232426},
-      map: map,
-      title: 'Where my family is from '
-    });
-  
-    // Add an info window to the Empire State Building marker
-    var empireStateInfoWindow = new google.maps.InfoWindow({
-      content: '<h2>Empire State Building</h2><p>A 102-story skyscraper located in Midtown Manhattan.</p>'
-    });
-    empireStateInfoWindow.open(map, empireStateBuilding);
-  
-    // Add a button to center the map on the Statue of Liberty
-    var centerButton = document.getElementById('center-btn');
-    centerButton.addEventListener('click', function() {
-      map.setCenter({lat: 35.10295383110616, lng: 33.244096104232426});
-      map.setZoom(15);
-    });
-  }
+var myMap = new google.maps.Map(el, mapOptions);
+
+	var marker = new google.maps.Marker({
+		position: myLocation,
+		map: myMap,
+		animation: google.maps.Animation.BOUNCE,
+		icon: 'pics/icon.png'
+	});
+
+	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
+
+	var infowindow = new google.maps.InfoWindow({
+      content: contentString
+  	});
+
+	google.maps.event.addListener(marker, 'mouseover', function() {
+    	infowindow.open(myMap, marker);
+  	});
+
+
+}
+
+google.maps.event.addDomListener(window, 'load', init);
