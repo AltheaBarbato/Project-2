@@ -10,7 +10,6 @@ async function initMap() {
   });
 }
 
-initMap();
 
 var empireStateBuilding = new google.maps.Marker({
       position: {lat: 35.10295383110616, lng: 33.244096104232426},
@@ -31,3 +30,4 @@ var empireStateBuilding = new google.maps.Marker({
       map.setZoom(15);
     });
   }
+initMap();
