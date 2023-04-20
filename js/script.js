@@ -12,6 +12,7 @@ async function initMap() {
 
 initMap();
 
+var myMap = new google.maps.Map(el, mapOptions);
 
 var myMap = new google.maps.Map(el, mapOptions);
 
