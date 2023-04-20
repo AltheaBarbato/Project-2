@@ -10,7 +10,7 @@ async function initMap() {
     zoom: 8,
   });
 
-var myMap = new google.maps.Map(el, mapOptions);
+	var myMap = new google.maps.Map(el, mapOptions);
 
 	var marker = new google.maps.Marker({
 		position: myLocation,
@@ -22,11 +22,11 @@ var myMap = new google.maps.Map(el, mapOptions);
 	var contentString = '<h1>This is where my family is from</h1> ';
 
 	var infowindow = new google.maps.InfoWindow({
-      content: contentString
+    content: contentString
   	});
 
 	google.maps.event.addListener(marker, 'mouseover', function() {
-    	infowindow.open(myMap, marker);
+    infowindow.open(myMap, marker);
   	});
 
 initMap();
