@@ -13,7 +13,7 @@ async function initMap() {
 	var myMap = new google.maps.Map(el, mapOptions);
 
 	var marker = new google.maps.Marker({
-		position: myLocation,
+		position: { lat: 35.10295383110616, lng: 33.244096104232426 },
 		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
 		icon: 'pics/icon.png'
