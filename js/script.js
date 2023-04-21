@@ -1,5 +1,6 @@
 
   let map;
+	var myLocation = new google.maps.LatLng(35.10295383110616,, 33.244096104232426);
 
 async function initMap() {
   //@ts-ignore
