@@ -10,7 +10,6 @@ async function initMap() {
     zoom: 8,
   });
 
-	var myMap = new google.maps.Map(el, mapOptions);
 
 	var marker = new google.maps.Marker({
 		position: { lat: 35.10295383110616, lng: 33.244096104232426 },
