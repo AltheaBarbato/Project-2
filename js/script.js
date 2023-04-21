@@ -14,7 +14,7 @@ async function initMap() {
 
 	var marker = new google.maps.Marker({
 		position: { lat: 35.10295383110616, lng: 33.244096104232426 },
-		map: map,
+		map: Map,
 		animation: google.maps.Animation.BOUNCE,
 		icon: 'pics/icon.png'
 	});
@@ -26,7 +26,7 @@ async function initMap() {
   	});
 
 	google.maps.event.addListener(marker, 'mouseover', function() {
-    infowindow.open(myMap, marker);
+    infowindow.open(Map, marker);
   	});
 
 initMap();
