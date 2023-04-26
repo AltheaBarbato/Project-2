@@ -59,7 +59,7 @@ function initMap() {
 			url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
 		},
 	
-	marker.addListener('mouseover`, () => {
+	marker.addListener('click`, () => {
 	  inforwindow.open({
 		anchor: marker, 
 		map,
