@@ -36,7 +36,7 @@ initMap();
 google.maps.event.addDomListener(window, 'load', init);
 */
 
-let myLocation = {lat: 35.10295383110616, lng: 33.244096104232426}
+let myLocation = {lat: 35.10295383110616, lng: 33.244096104232426};
 
 async function initMap() {
 	//@ts-ignore
