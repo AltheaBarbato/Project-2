@@ -49,7 +49,9 @@ function initMap() {
 		position: myLocation,
 		map: map,
 		title: 'This is where my family is from'
-		animation: google.maps.Animation.BOUNCE,
 		icon: 'pics/icon.png'
 	});
+	google.maps.event.addListener(marker, 'mouseover', function() {
+    infowindow.open(myMap, marker);
+  	});
 }	
