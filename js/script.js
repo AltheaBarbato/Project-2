@@ -49,7 +49,9 @@ function initMap() {
 		position: myLocation,
 		map: map,
 		title: 'This is where my family is from',
-        icon: iconBase + 'pics/icon.png'
+        icon: {
+			urL: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+		},
 	});
 	google.maps.event.addListener(marker, 'mouseover', function() {
     infowindow.open(myMap, marker);
