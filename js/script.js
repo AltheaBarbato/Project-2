@@ -52,8 +52,8 @@ function initMap() {
         icon: {
 			urL: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
 		},
-	cost contentString = "<p>This is where my family is from!<p>";
-	cost infowindo = new google.maps.InfoWindow({
+	const contentString = "<p>This is where my family is from!<p>";
+	const infowindo = new google.maps.InfoWindow({
 	content: contentString,
 	ariaLabel: "Cyprus",
 	});
