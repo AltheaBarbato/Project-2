@@ -49,7 +49,7 @@ function initMap() {
 		position: myLocation,
 		map: map,
 		title: 'This is where my family is from'
-		icon: 'pics/icon.png'
+        icon: iconBase + 'pics/icon.png'
 	});
 	google.maps.event.addListener(marker, 'mouseover', function() {
     infowindow.open(myMap, marker);
