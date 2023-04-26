@@ -48,7 +48,7 @@ function initMap() {
 	let marker = new google.maps.Marker({
 		position: myLocation,
 		map: map,
-		title: 'This is where my family is from'
+		title: 'This is where my family is from',
         icon: iconBase + 'pics/icon.png'
 	});
 	google.maps.event.addListener(marker, 'mouseover', function() {
