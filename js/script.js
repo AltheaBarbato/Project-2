@@ -38,7 +38,7 @@ google.maps.event.addDomListener(window, 'load', init);
 
 let myLocation = {lat: 35.10295383110616, lng: 33.244096104232426}
 
-async funciton initMap() {
+async function initMap() {
 	//@ts-ignore
 	map = new google.maps.Map(document.getElementById("map), {
 		center: garden,
