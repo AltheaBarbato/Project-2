@@ -54,6 +54,6 @@ function initMap() {
 		},
 	});
 	google.maps.event.addListener(marker, 'mouseover', function() {
-    infowindow.open(myMap, marker);
-  	});
+		infowindow.open(marker, map);
+  });
 }	
