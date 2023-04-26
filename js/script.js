@@ -67,6 +67,12 @@ function initMap() {
   });
 }
 
+declare global {
+	interface Window {
+		initMap: () => void;
+	}
+}
+window.initMap = initMap;
 /*
 cost contentString = "<p>This is where my family is from!<p>";
 cost infowindo = new google.maps.InfoWindow({
