@@ -44,26 +44,29 @@ function initMap() {
 		center: myLocation,
 		zoom: 8,
 	});
+	
+	const contentString = "<p>This is where my family is from!<p>";
+	const infowindow = new google.maps.InfoWindow({
+	  content: contentString,
+	  ariaLabel: "Cyprus",
+	});
 
 	let marker = new google.maps.Marker({
 		position: myLocation,
 		map: map,
 		title: 'This is where my family is from',
         icon: {
-			urL: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+			url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
 		},
-	const contentString = "<p>This is where my family is from!<p>";
-	const infowindo = new google.maps.InfoWindow({
-	content: contentString,
-	ariaLabel: "Cyprus",
-	});
+	
 	marker.addListner('mouseover`, () => {
-	inforwindow.open({
+	  inforwindow.open({
 		anchor: marker, 
 		map,
 	});
   });
 }
+
 /*
 cost contentString = "<p>This is where my family is from!<p>";
 cost infowindo = new google.maps.InfoWindow({
