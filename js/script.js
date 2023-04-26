@@ -38,16 +38,16 @@ google.maps.event.addDomListener(window, 'load', init);
 
 let myLocation = {lat: 35.10295383110616, lng: 33.244096104232426};
 
-async function initMap() {
+function initMap() {
 	//@ts-ignore
-	map = new google.maps.Map(document.getElementById("map), {
-		center: garden,
+	map = new google.maps.Map(document.getElementById("map"), {
+		center: myLocation,
 		zoom: 8,
 	});
 
 	let marker = new google.maps.Marker({
-		position: myMarker,
+		position: myLocation,
 		map: map,
-		title: "This is where my family is from"
+		title: 'This is where my family is from'
 	});
 }	
