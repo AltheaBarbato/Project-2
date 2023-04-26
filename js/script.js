@@ -51,18 +51,13 @@ function initMap() {
 	  ariaLabel: "Cyprus",
 	});
 
-	const marker = new google.maps.Marker({
+	let marker = new google.maps.Marker({
 		position: myLocation,
 		map: map,
 		title: 'This is where my family is from',
         icon: 'pics/icon.png',
 
-	
-	marker.addListener('click`, () => {
-	  inforwindow.open({
-		anchor: marker, 
-		map,
-	});
+
   });
 }
 
