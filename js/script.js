@@ -51,7 +51,7 @@ function initMap() {
 	  ariaLabel: "Cyprus",
 	});
 
-	let marker = new google.maps.Marker({
+	const marker = new google.maps.Marker({
 		position: myLocation,
 		map: map,
 		title: 'This is where my family is from',
