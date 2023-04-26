@@ -50,10 +50,30 @@ function initMap() {
 		map: map,
 		title: 'This is where my family is from',
         icon: {
-			urL: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+			urL: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
 		},
+	cost contentString = "<p>This is where my family is from!<p>";
+	cost infowindo = new google.maps.InfoWindow({
+	content: contentString,
+	ariaLabel: "Cyprus",
 	});
-	google.maps.event.addListener(marker, 'mouseover', function() {
-		infowindow.open(marker, map);
+	marker.addListner('mouseover`, () => {
+	inforwindow.open({
+		anchor: marker, 
+		map,
+	});
   });
-}	
+}
+/*
+cost contentString = "<p>This is where my family is from!<p>";
+cost infowindo = new google.maps.InfoWindow({
+	content: contentString,
+	ariaLabel: "Cybrus",
+
+marker.addListner('mouseover`, () => {
+	inforwindow.open({
+		anchor: marker, 
+		map,
+	});
+});
+*/
