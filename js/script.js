@@ -55,9 +55,8 @@ function initMap() {
 		position: myLocation,
 		map: map,
 		title: 'This is where my family is from',
-        icon: {
-			url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
-		},
+        icon: 'pics/icon.png',
+
 	
 	marker.addListener('click`, () => {
 	  inforwindow.open({
