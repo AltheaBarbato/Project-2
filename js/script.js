@@ -48,7 +48,9 @@ function initMap() {
 		position: myLocation,
 		map: map,
 		title: 'This is where my family is from',
-        icon: 'pics/icon2.png',
-  });
+        icon: {
+			url: "http://maps.google.com//mapfiles/ms/icons/pink-dot.png"
+  },
+  );
 }
 
