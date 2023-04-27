@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&amp;display=swap" rel="stylesheet">
+	<script async src="js/script.js"></script>
+	<script async src="js/slideshow.js"></script>
   </head>
   <body id="hobbie-body">
   <header>  
@@ -16,6 +18,7 @@
             <li><a href="resume.html" >Resume</a></li>
             <li><a href="cat.html" >My Cat</a></li>
             <li id="onpage"><a href="#">Hobbies</a></li>
+			<li><a href="map.html">Map</a></li>
           </ul>
         </div>
       </nav>
@@ -45,8 +48,76 @@
     <section id="travelling-section">
       <h4>Traveling</h4>
       <p>Traveling is probably my favorite thing to do. I have been all over! My favorites recently being; Italy, Germany and Greece</p>
-		<img class="plane-img" src="pics/plane.jpg" alt="Plane with clouds">
-    </section>
+<div class="slideshow">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 13</div>
+         <img src="pics/plane.jpg" alt="Plane with clouds">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 13</div>
+        <img src="pics/castel.JPG" alt="Castle in Germany">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 13</div>
+        <img src="pics/newyork.jpg" alt="Times sqaure">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 13</div>
+          <img src="pics/italy.jpg" alt="Me in Italy">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 13</div>
+        <img src="pics/flowercat.jpg" alt="Cat with flowers">
+    </div>
+     <div class="mySlides fade">
+       <div class="numbertext">6 / 13</div>
+        <img src="pics/germany.jpg" alt="Clock in Germnay">
+    </div>
+     
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 13</div>
+        <img src="pics/nightcastel.jpg" alt="Germany castle at night">
+  </div>
+ 
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 13</div>
+        <img src="pics/sunset.jpg" alt="Sunset">
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 13</div>
+        <img src="pics/tree.jpg" alt="Tree">
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">12 / 13</div>
+        <img src="pics/waves.jpg" alt="Waves">
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">13 / 13</div>
+        <img src="pics/yellowcastel.jpg" alt="Another castle">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
+  <span class="dot" onclick="currentSlide(13)"></span>
+</div>
+   </section>
     <section id="music-section">
 	<h4>Music</h4>
 	<p>I love music, some of my favorite artists are... Tyler the Creator, the Marias, TV Girl and Crumb</p>
