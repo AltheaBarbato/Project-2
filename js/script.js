@@ -48,7 +48,7 @@ function initMap() {
 		position: myLocation,
 		map: map,
 		title: 'This is where my family is from',
-        icon: 'pics/icon.jpg',
+        icon: 'pics/icon2.jpg',
   });
 }
 
